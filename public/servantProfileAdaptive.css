@@ -1,0 +1,55 @@
+@media  screen and (max-width: 1050px){
+    .info {
+        font-size: 80%;
+    }
+    .info span {
+        padding: 0;
+    }
+    .about {
+        padding: 0;
+    }
+}
+@media  screen and (max-width: 1000px){
+    .image img {
+        width: 400px;
+        height: 500px;
+    }
+    .profile{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width: 850px){
+    .image img {
+        width: 300px;
+        height: 400px;
+    }
+    .profile{
+        flex-direction: row;
+        font-size: 90%;
+    }
+}
+@media  screen and (max-width: 600px){
+    .image img {
+        width: 300px;
+        height: 400px;
+    }
+    .profile{
+        font-size: 80%;
+    }
+    .info{
+        width:60%
+    }
+}
+@media  screen and (max-width: 420px){
+    .profile{
+        flex-direction: column;
+    }
+    .image{
+        padding: 0;
+        margin: 0;
+    }
+    .image img {
+        width: 250px;
+        height: 310px;
+    }
+}

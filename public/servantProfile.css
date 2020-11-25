@@ -4,7 +4,14 @@
     font-family: Helvetica;
     padding-top: 1%;
     font-size: 120%;
-
+}
+.image img {
+    height: 600px;
+    width: 500px
+}
+.class img {
+    width: 30px;
+    height: 30px
 }
 .info {
     display: flex;
