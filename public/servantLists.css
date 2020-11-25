@@ -1,0 +1,149 @@
+.servants-list{
+    marker: none;
+    padding-bottom: 0;
+}
+.servant-link{
+    text-decoration: none;
+}
+.servant-link:visited{
+    color: #202125;
+}
+.servant {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    //border: dashed red;
+    width: 32%;
+    background-color: white;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+.servant:hover {
+    animation: bounce 1s;
+}
+.servant-profile{
+    display: flex;
+    flex-direction: row;
+}
+.servant-info{
+    padding-left: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    //border: dashed red;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.servant-info .spans span{
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    //border: dashed red;
+}
+.pages_nav{
+    font-family: "Malgun Gothic";
+    background: none;
+    border: none;
+}
+.navigation {
+    padding-left: 11%;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+.loading {
+    padding-left: 3.8%;
+    position: fixed;
+    align-self: flex-end;
+    background: rgba(256, 256, 256, 0.7);
+    //opacity: 90%;
+    font-size: 100%;
+    color: rgba(0, 0, 0, 1);
+    text-shadow: rgba(71, 126, 232, 0.8) 0 0 10px;
+}
+.loading:disabled{
+opacity: 70%;
+}
+.page {
+    font-family: "Malgun Gothic";
+}
+.spans .name-ru{
+    font-weight: 600;
+    font-family: "Malgun Gothic";
+}
+.spans .id{
+    font-weight: 600;
+    color: dimgrey;
+}
+.spans .class{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0;
+}
+.servants-list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 4%;
+    align-content: space-between;
+    //border: dashed red;
+}
+.servant-pic{
+    //border: dashed red;
+}
+.servant-summon button{
+    width: 100%;
+    background-color: white;
+    border-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(-1px);
+        transform: translateY(-1px);
+    }
+}
+
+.animated-word {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    width: 100%;
+}
+
+.animated-word:hover {
+    color: rgba(71, 126, 232, 0.7);
+}
+.animated-word:visited {
+    color: rgba(71, 126, 232, 0.7);
+}
+button:disabled .animated-word{
+    color: rgba(71, 126, 232, 0.7);
+}
+
+.menu{
+    font-family: Helvetica, monospace;
+    text-align: center;
+    color: #202125;
+    font-weight: 600;
+    padding-left: 3%;
+    text-decoration: none;
+}
+.menu:hover{
+    color: rgba(71, 126, 232, 0.7);
+}

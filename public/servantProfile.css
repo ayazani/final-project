@@ -1,0 +1,37 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    font-family: Helvetica;
+    padding-top: 1%;
+    font-size: 120%;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    width: 40%;
+}
+.info span{
+    padding-top: 2%;
+}
+.image{
+    padding-left: 5%;
+    display: flex;
+}
+.name-ru{
+    font-weight: 600;
+    font-family: "Malgun Gothic";
+}
+.about{
+    padding: 0;
+    line-height: 1.4;
+}
+.class{
+    padding: 0;
+    margin: 0;
+}
+.id {
+    font-weight: 600;
+    color: dimgrey;
+}
