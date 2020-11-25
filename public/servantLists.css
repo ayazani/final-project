@@ -34,6 +34,14 @@
     flex-wrap: wrap;
     width: 90%;
 }
+.servant-pic img{
+    width: 200px;
+    height: 240px;
+}
+.class img {
+    width:30px;
+    height:30px
+}
 .servant-info .spans span{
     align-content: space-between;
     display: flex;
@@ -85,9 +93,6 @@ opacity: 70%;
     flex-wrap: wrap;
     height: 4%;
     align-content: space-between;
-    //border: dashed red;
-}
-.servant-pic{
     //border: dashed red;
 }
 .servant-summon button{

@@ -95,13 +95,13 @@ class Home extends Component{
                         <DetectSection>
                         <Link to={{pathname :'/servant', state:{id : servant.id}}} className = "servant-link">
                             <div className="servant-profile">
-                                <div className="servant-pic"><img src={`${process.env.PUBLIC_URL}/servants/${servant.id}.png`} alt={`${servant.nameEN}`} width="200" height="240" /></div>
+                                <div className="servant-pic"><img src={`${process.env.PUBLIC_URL}/servants/${servant.id}.png`} alt={`${servant.nameEN}`}/></div>
                                 <div className = "servant-info">
                                     <div className="spans">
                                         <span className="name-ru">{servant.nameRU}</span>
                                         <span className="name-jp">Jp: {servant.nameJP}</span>
                                         <span className="name-en">En: {servant.nameEN}</span>
-                                        <span className="class">Class: {servant.class} <img src={`${process.env.PUBLIC_URL}/class icons/${servant.class}.png`} width="30" height="30" alt = {`${servant.class}`}/></span>
+                                        <span className="class">Class: {servant.class} <img src={`${process.env.PUBLIC_URL}/class icons/${servant.class}.png`} alt = {`${servant.class}`}/></span>
                                         <span className="id">№{servant.id}</span>
                                     </div>
                                 </div>

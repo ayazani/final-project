@@ -1,0 +1,90 @@
+@media  screen and (max-width: 1050px){
+    .servants-list{
+        display: flex;
+        flex-direction: row;
+        font-size: 90%;
+    }
+    .spans span{
+        font-size: 90%;
+    }
+}
+@media  screen and (max-width: 840px){
+    .servants-list{
+        display: flex;
+        flex-direction: row;
+        font-size: 50%;
+    }
+    .spans span{
+        font-size: 40%;
+    }
+    .servant-info{
+        padding-right: 40%;
+    }
+    .servant-profile{
+        padding-right: 40%;
+    }
+    .servant-pic img{
+        width: 110px;
+        height: 140px;
+    }
+    .class img{
+        width:10px;
+        height:10px;
+    }
+    .servant-summon button span{
+        font-size: 50%;
+    }
+    .navigation{
+        padding-left: 15%;
+    }
+}
+@media  screen and (max-width: 653px){
+    .servants-list{
+        display: flex;
+        font-size: 60%;
+    }
+    .servant{
+        flex-grow: 9;
+    }
+}
+@media  screen and (max-width: 540px){
+    .servants-list{
+        display: flex;
+        flex-direction: row;
+        font-size: 60%;
+        padding-left: 2%;
+    }
+    .servant{
+        flex-basis: 45%;
+    }
+    .servant-summon{
+        padding: 3% 3% 3% 3%;
+    }
+}
+@media  screen and (max-width: 420px){
+    .servants-list{
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+    .spans span{
+        font-size: 60%;
+    }
+    .servant-info{
+        width: 120%;
+        margin-left: 2%;
+    }
+    .servant-pic img{
+        width: 170px;
+        height: 210px;
+    }
+    .navigation{
+        padding-left: 30%;
+    }
+    .servant-summon{
+        padding: 5% 5% 5% 5%;
+    }
+    .servant-profile{
+        flex-basis: 120%;
+    }
+}
